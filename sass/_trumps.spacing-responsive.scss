@@ -44,32 +44,32 @@ $inuit-enable-responsive-paddings--none:            false !default;
 // `inuit-generate-spacing` mixin will generate correctly.
 $inuit-generate-spacing-alias: null;
 
-// Internally used mixin to quickly generate our different variants based upon
-// the breakpoints defined in `settings.responsive`.
-
-@mixin inuit-generate-spacing() {
-
-    // Loop through our previously-defined breakpoints.
-    @each $breakpoint in $breakpoints {
-
-        $inuit-generate-spacing-alias:      nth($breakpoint, 1) !global;
-        $inuit-generate-spacing-condition:  nth($breakpoint, 2);
-
-        // This isn’t ideal, but we definitely don’t want to generate widths
-        // for retina devices. Exclude retina media-qeuries manually.
-        @if ($inuit-generate-spacing-alias != "retina") {
-
-            @include media-query($inuit-generate-spacing-alias) {
-                @content;
-            } // Close media query.
-
-        } // Close retina check.
-
-    } // Close breakpoints loop.
-
-}
-
 @if import-once('trumps.spacing-responsive') {
+  
+  // Internally used mixin to quickly generate our different variants based upon
+  // the breakpoints defined in `settings.responsive`.
+  
+  @mixin inuit-generate-spacing() {
+  
+      // Loop through our previously-defined breakpoints.
+      @each $breakpoint in $breakpoints {
+  
+          $inuit-generate-spacing-alias:      nth($breakpoint, 1) !global;
+          $inuit-generate-spacing-condition:  nth($breakpoint, 2);
+  
+          // This isn’t ideal, but we definitely don’t want to generate widths
+          // for retina devices. Exclude retina media-qeuries manually.
+          @if ($inuit-generate-spacing-alias != "retina") {
+  
+              @include media-query($inuit-generate-spacing-alias) {
+                  @content;
+              } // Close media query.
+  
+          } // Close retina check.
+  
+      } // Close breakpoints loop.
+  
+  }
 
   @if ($inuit-enable-responsive-margins == true) {
   
