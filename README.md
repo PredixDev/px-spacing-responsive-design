@@ -58,7 +58,9 @@ These flags are available and, if needed, should be set to `true` prior to impor
 
 For each "breakpoint" set in inuitcss' [settings.responsive](https://github.com/inuitcss/settings.responsive) `$breakpoint` Sass list, the classes below will be appended i.e. `[breakpoint-name]-classname`. Margin dimensions are set in Px's [Spacing](https://github.sw.ge.com/pxc/px-spacing-design) module.
 
-These classes are available if the variable flags listed above are set to `true`:
+These classes are available if the following variable flags are set to `true`:
+
+`$inuit-enable-responsive-margins`:
 
 * `.*-m`: add default margins to all sides
 * `.*-mt`: add default margin top
@@ -68,6 +70,8 @@ These classes are available if the variable flags listed above are set to `true`
 * `.*-mh`: add default margins right and left
 * `.*-mv`: add default margins top and bottom
 
+`$inuit-enable-responsive-margins--tiny`:
+
 * `.*-m--`: add tiny margins to all sides
 * `.*-mt--`: add tiny margin top
 * `.*-mr--`: add tiny margin right
@@ -75,6 +79,8 @@ These classes are available if the variable flags listed above are set to `true`
 * `.*-ml--`: add tiny margin left
 * `.*-mh--`: add tiny margins right and left
 * `.*-mv--`: add tiny margins top and bottom
+
+`$inuit-enable-responsive-margins--small`:
 
 * `.*-m-`: add small margins to all sides
 * `.*-mt-`: add small margin top
@@ -84,6 +90,8 @@ These classes are available if the variable flags listed above are set to `true`
 * `.*-mh-`: add small margins right and left
 * `.*-mv-`: add small margins top and bottom
 
+`$inuit-enable-responsive-margins--large`:
+
 * `.*-m+`: add large margins to all sides
 * `.*-mt+`: add large margin top
 * `.*-mr+`: add large margin right
@@ -91,6 +99,8 @@ These classes are available if the variable flags listed above are set to `true`
 * `.*-ml+`: add large margin left
 * `.*-mh+`: add large margins right and left
 * `.*-mv+`: add large margins top and bottom
+
+`$inuit-enable-responsive-margins--huge`:
 
 * `.*-m++`: add huge margins to all sides
 * `.*-mt++`: add huge margin top
@@ -100,13 +110,7 @@ These classes are available if the variable flags listed above are set to `true`
 * `.*-mh++`: add huge margins right and left
 * `.*-mv++`: add huge margins top and bottom
 
-* `.*-m0`: remove margins
-* `.*-mt0`: remove margin top
-* `.*-mr0`: remove margin right
-* `.*-mb0`: remove margin bottom
-* `.*-ml0`: remove margin left
-* `.*-mh0`: remove margins right and left
-* `.*-mv0`: remove margins top and bottom
+`$inuit-enable-responsive-margins--negative`:
 
 * `.*--m`: add default negative margins to all sides
 * `.*--mt`: add default negative margin top
@@ -116,6 +120,8 @@ These classes are available if the variable flags listed above are set to `true`
 * `.*--mh`: add default negative margins right and left
 * `.*--mv`: add default negative margins top and bottom
 
+`$inuit-enable-responsive-margins--negative-tiny`:
+
 * `.*--m--`: add tiny negative margins to all sides
 * `.*--mt--`: add tiny negative margin top
 * `.*--mr--`: add tiny negative margin right
@@ -123,6 +129,8 @@ These classes are available if the variable flags listed above are set to `true`
 * `.*--ml--`: add tiny negative margin left
 * `.*--mh--`: add tiny negative margins right and left
 * `.*--mv--`: add tiny negative margins top and bottom
+
+`$inuit-enable-responsive-margins--negative-small`:
 
 * `.*--m-`: add small negative margins to all sides
 * `.*--mt-`: add small negative margin top
@@ -132,6 +140,8 @@ These classes are available if the variable flags listed above are set to `true`
 * `.*--mh-`: add small negative margins right and left
 * `.*--mv-`: add small negative margins top and bottom
 
+`$inuit-enable-responsive-margins--negative-large`:
+
 * `.*--m+`: add large negative margins to all sides
 * `.*--mt+`: add large negative margin top
 * `.*--mr+`: add large negative margin right
@@ -139,7 +149,9 @@ These classes are available if the variable flags listed above are set to `true`
 * `.*--ml+`: add large negative margin left
 * `.*--mh+`: add large negative margins right and left
 * `.*--mv+`: add large negative margins top and bottom
-* 
+
+`$inuit-enable-responsive-margins--negative-huge`:
+
 * `.*--m++`: add huge negative margins to all sides
 * `.*--mt++`: add huge negative margin top
 * `.*--mr++`: add huge negative margin right
@@ -148,3 +160,72 @@ These classes are available if the variable flags listed above are set to `true`
 * `.*--mh++`: add huge negative margins right and left
 * `.*--mv++`: add huge negative margins top and bottom
 
+`$inuit-enable-responsive-margins--none`:
+
+* `.*-m0`: remove margins
+* `.*-mt0`: remove margin top
+* `.*-mr0`: remove margin right
+* `.*-mb0`: remove margin bottom
+* `.*-ml0`: remove margin left
+* `.*-mh0`: remove margins right and left
+* `.*-mv0`: remove margins top and bottom
+
+`$inuit-enable-responsive-paddings`:
+
+* `.*-p`: add default padding to all sides
+* `.*-pt`: add default padding top
+* `.*-pr`: add default padding right
+* `.*-pb`: add default padding bottom
+* `.*-pl`: add default padding left
+* `.*-ph`: add default padding right and left
+* `.*-pv`: add default padding top and bottom
+
+`$inuit-enable-responsive-paddings--tiny`:
+
+* `.*-p--`: add tiny padding to all sides
+* `.*-pt--`: add tiny padding top
+* `.*-pr--`: add tiny padding right
+* `.*-pb--`: add tiny padding bottom
+* `.*-pl--`: add tiny padding left
+* `.*-ph--`: add tiny padding right and left
+* `.*-pv--`: add tiny padding top and bottom
+
+`$inuit-enable-responsive-paddings--small`:
+
+* `.*-p-`: add small padding to all sides
+* `.*-pt-`: add small padding top
+* `.*-pr-`: add small padding right
+* `.*-pb-`: add small padding bottom
+* `.*-pl-`: add small padding left
+* `.*-ph-`: add small padding right and left
+* `.*-pv-`: add small padding top and bottom
+
+`$inuit-enable-responsive-paddings--large`:
+
+* `.*-p+`: add large padding to all sides
+* `.*-pt+`: add large padding top
+* `.*-pr+`: add large padding right
+* `.*-pb+`: add large padding bottom
+* `.*-pl+`: add large padding left
+* `.*-ph+`: add large padding right and left
+* `.*-pv+`: add large padding top and bottom
+
+`$inuit-enable-responsive-paddings--huge`:
+
+* `.*-p++`: add huge padding to all sides
+* `.*-pt++`: add huge padding top
+* `.*-pr++`: add huge padding right
+* `.*-pb++`: add huge padding bottom
+* `.*-pl++`: add huge padding left
+* `.*-ph++`: add huge padding right and left
+* `.*-pv++`: add huge padding top and bottom
+
+`$inuit-enable-responsive-paddings--none`:
+
+* `.*-p0`: remove padding
+* `.*-pt0`: remove padding top
+* `.*-pr0`: remove padding right
+* `.*-pb0`: remove padding bottom
+* `.*-pl0`: remove padding left
+* `.*-ph0`: remove padding right and left
+* `.*-pv0`: remove padding top and bottom
