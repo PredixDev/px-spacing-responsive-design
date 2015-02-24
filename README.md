@@ -1,6 +1,6 @@
 # Spacing Responsive
 
-The Predix Experience Spacing Responsive module provides breakpoint-based classes for nudging margins and paddings around responsively, e.g. `.lap-mb0`, `.desk-mb++`. This module is a fork of the [inuitcss spacing-responsive](https://github.com/inuitcss/trumps.spacing-responsive) module.
+The Predix Experience Spacing Responsive module is an extension of the default [px-spacing-design](https://github.sw.ge.com/pxc/px-spacing-design) module and provides breakpoint-based classes for nudging margins and paddings around responsively, e.g. `.lap-mb0`, `.desk-mb++`. This module is a fork of the [inuitcss spacing-responsive](https://github.com/inuitcss/trumps.spacing-responsive) module.
 
 Based on the breakpoints defined in the `$breakpoints` Sass list, then the margins or padding determined in your markup will be triggered.
 
