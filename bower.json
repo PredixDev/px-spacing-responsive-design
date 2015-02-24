@@ -2,7 +2,8 @@
   "name": "px-spacing-responsive-design",
   "version": "0.0.1",
   "authors": [
-    "General Electric"
+    "General Electric",
+    "Harry Roberts <harry@csswizardry.com>"
   ],
   "description": "Responsively controlled width classes for Predix Experience",
   "main": "_trumps.spacing-responsive.scss",
