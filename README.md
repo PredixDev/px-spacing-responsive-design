@@ -60,6 +60,10 @@ These flags are available and, if needed, should be set to `true` prior to impor
     
     $inuit-enable-responsive-paddings--none
 
+The conventions used in the classes in the Spacing Responsive module are as follows:
+
+    .[breakpoint]-[negative][type][direction][size] {}
+
 ## Options
 
 For each "breakpoint" set in inuitcss' [settings.responsive](https://github.com/inuitcss/settings.responsive) `$breakpoint` Sass list, the classes below will be appended i.e. `[breakpoint-name]-classname`. Margin dimensions are set in Px's [Spacing](https://github.sw.ge.com/pxc/px-spacing-design) module.
