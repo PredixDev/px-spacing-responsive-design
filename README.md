@@ -1,6 +1,6 @@
 # Spacing Responsive
 
-The Predix Experience Spacing Responsive module is an extension of the default [px-spacing-design](https://github.sw.ge.com/pxc/px-spacing-design) module and provides breakpoint-based classes for nudging margins and paddings around responsively. This module is a fork of inuitcss' [spacing-responsive](https://github.com/inuitcss/trumps.spacing-responsive) module.
+The Predix Experience Spacing Responsive module is an extension of the default [px-spacing-design](https://github.sw.ge.com/PXd/px-spacing-design) module and provides breakpoint-based classes for nudging margins and paddings around responsively. This module is a fork of inuitcss' [spacing-responsive](https://github.com/inuitcss/trumps.spacing-responsive) module.
 
 The Spacing Responsive module loops through the breakpoints defined in inuitcss' [settings.responsive](https://github.com/inuitcss/settings.responsive) module to generate prefixed breakpoint-based classes. If you are using inuitcss’ default breakpoints, you will be given classes like `lap-and-up-m0`, or `desk-pt++`, etc.
 
@@ -14,21 +14,21 @@ Px's Spacing Responsive module depends on five other Px and inuitcss modules:
 
 * [settings.defaults](https://github.com/inuitcss/settings.defaults)
 * [settings.responsive](https://github.com/inuitcss/settings.responsive)
-* [px-functions-design](https://github.sw.ge.com/pxc/px-functions-design)
+* [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
 * [tools.responsive](https://github.com/inuitcss/tools.responsive)
-* [px-spacing-design](https://github.sw.ge.com/pxc/px-spacing-design)
+* [px-spacing-design](https://github.sw.ge.com/PXd/px-spacing-design)
 
 ## Installation
 
 Install this module and its dependencies using bower:
 
-    bower install --save https://github.sw.ge.com/pxc/px-spacing-responsive-design.git
+    bower install --save https://github.sw.ge.com/PXd/px-spacing-responsive-design.git
 
 Once installed, `@import` into your project's Sass file in its Trumps layer:
 
     @import "../px-spacing-responsive-design/trumps.spacing-responsive";
 
-See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+See [px-getting-started](https://github.sw.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Import once
 
@@ -68,7 +68,7 @@ The conventions used in the classes in the Spacing Responsive module are as foll
 
 ## Options
 
-For each "breakpoint" set in inuitcss' [settings.responsive](https://github.com/inuitcss/settings.responsive) `$breakpoint` Sass list, the classes below will be appended i.e. `[breakpoint-name]-classname`. Margin dimensions are set in Px's [Spacing](https://github.sw.ge.com/pxc/px-spacing-design) module.
+For each "breakpoint" set in inuitcss' [settings.responsive](https://github.com/inuitcss/settings.responsive) `$breakpoint` Sass list, the classes below will be appended i.e. `[breakpoint-name]-classname`. Margin dimensions are set in Px's [Spacing](https://github.sw.ge.com/PXd/px-spacing-design) module.
 
 These classes are available if the following variable flags are set to `true`:
 

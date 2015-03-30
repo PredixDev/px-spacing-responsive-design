@@ -14,7 +14,7 @@
     "spacing"
   ],
   "license": "Apache 2",
-  "homepage": "git://github.sw.ge.com/pxc/px-spacing-responsive-design.git",
+  "homepage": "git://github.sw.ge.com/PXd/px-spacing-responsive-design.git",
   "private": true,
   "ignore": [
     "**/.*",
@@ -27,7 +27,7 @@
     "inuit-defaults": "~0.2.1",
     "inuit-responsive-settings": "~0.1.2",
     "inuit-responsive-tools": "~0.1.1",
-    "px-functions-design": "git://github.sw.ge.com/pxc/px-functions-design.git#master",
-    "px-spacing-design": "git://github.sw.ge.com/pxc/px-spacing-design.git#master"
+    "px-functions-design": "git://github.sw.ge.com/PXd/px-functions-design.git#master",
+    "px-spacing-design": "git://github.sw.ge.com/PXd/px-spacing-design.git#master"
   }
 }
