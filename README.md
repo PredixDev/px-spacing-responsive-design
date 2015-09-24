@@ -8,9 +8,7 @@ Based on the breakpoints defined in the `$breakpoints` Sass list, then the margi
 
 For example, a `$breakpoint` named `desk` which defines a media-query for viewports wider than 1024 pixels, the class `.u-desk-m0` would zero out all margins with a viewport above 1024 pixels. At narrower viewports `.u-desk-m0` has no effect.
 
-## Sass Documentation
 
-You can review Sass Documentation here: https://github.com/pages/PredixDev/px-spacing-responsive-design/sassdoc
 
 ## Dependencies
 
