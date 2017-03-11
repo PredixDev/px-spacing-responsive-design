@@ -1,3 +1,7 @@
+v0.4.1
+==================
+* add new demo, fix large/huge, setup travis, etc
+
 v0.4.0
 ==================
 * Updated dependencies
