@@ -1,3 +1,7 @@
+v1.0.0-prerelease
+==================
+* updated dependencies for design refresh
+
 v0.4.1
 ==================
 * add new demo, fix large/huge, setup travis, etc
