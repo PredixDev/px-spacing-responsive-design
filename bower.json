@@ -34,9 +34,8 @@
     "LICENSE.md"
   ],
   "dependencies": {
-    "inuit-responsive-settings": "~0.1.5",
-    "inuit-responsive-tools": "~0.1.2",
-    "px-spacing-design": "^1.0.0"
+    "px-spacing-design": "^1.0.0",
+    "px-helpers-design": "^1.0.0"
   },
   "devDependencies": {
     "px-starter-kit-design": "^1.0.0",

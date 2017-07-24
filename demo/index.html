@@ -19,8 +19,7 @@
   sassdoc-path="sassdoc.json"
   dependencies='[
     "https://github.com/PredixDev/px-spacing-design",
-    "https://github.com/inuitcss/tools.responsive",
-    "https://github.com/inuitcss/settings.responsive"
+    "https://github.com/PredixDev/px-helpers-design"
   ]'
   selected-options="{{selectedOptions}}">
 
@@ -120,7 +119,7 @@
 
 <!-- 5: Set Usage HTML -->
 <section data-slot="usage">
-For each "breakpoint" set in InuitCSS's [settings.responsive $breakpoint Sass list](https://github.com/inuitcss/settings.responsive/blob/master/_settings.responsive.scss#L10-L17), a class will be appended i.e. u-[breakpoint-name]-classname, where the classname follows the following convention. Margin dimensions are set in the Predix UI [spacing-design](https://github.com/PredixDev/px-spacing-design) module.
+For each "breakpoint" set in px-helpers-design [$breakpoint list](https://github.com/PredixDev/px-helpers-design/blob/master/_generic.helpers.scss#L23-L30), a class will be appended i.e. u-[breakpoint-name]-classname, where the classname follows the following convention. Margin dimensions are set in the Predix UI [spacing-design](https://github.com/PredixDev/px-spacing-design) module.
 ```
 .u-[breakpoint]-[negative][type][direction][size]
 ```
