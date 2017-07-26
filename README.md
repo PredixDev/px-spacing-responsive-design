@@ -2,15 +2,15 @@
 
 The Predix UI Spacing Responsive module is an extension of the default [px-spacing-design](https://github.com/PredixDev/px-spacing-design) module and provides breakpoint-based classes for nudging margins and paddings around responsively. This module is a fork of inuitcss' [spacing-responsive](https://github.com/inuitcss/trumps.spacing-responsive) module.
 
-The px-spacing-responsive-design module loops through the breakpoints defined in inuitcss' [settings.responsive](https://github.com/inuitcss/settings.responsive) module to generate prefixed breakpoint-based classes. If you are using inuitcss’ default breakpoints, you will be given classes like `u-lap-and-up-m0`, or `u-desk-pt++`, etc.
+The `px-spacing-responsive-design` module loops through the breakpoints defined in inuitcss' [settings.responsive](https://github.com/inuitcss/settings.responsive) module to generate prefixed breakpoint-based classes. If you are using inuitcss’ default breakpoints, you will be given classes like `u-lap-and-up-m0`, `u-desk-pt++`, etc.
 
-Based on the breakpoints defined in the `$breakpoints` Sass list, then the margins or padding determined by classes in your markup will be triggered.
+Based on the breakpoints defined in the `$breakpoints` Sass list, the margins or padding determined by classes in your markup will be triggered.
 
-For example, a `$breakpoint` named `desk` which defines a media-query for viewports wider than 1024 pixels, the class `.u-desk-m0` would zero out all margins with a viewport above 1024 pixels. At narrower viewports `.u-desk-m0` has no effect.
+For example, a `$breakpoint` named `desk` which defines a media-query for viewports wider than 1024 pixels, the class `.u-desk-m0` would zero out all margins with a viewport above 1024 pixels. At narrower viewports, `.u-desk-m0` has no effect.
 
 ## Dependencies
 
-The px-spacing-responsive-design module depends on one other Px module and two other inuitcss modules:
+The `px-spacing-responsive-design` module depends on one other Px module and two other inuitcss modules:
 
 * [settings.responsive](https://github.com/inuitcss/settings.responsive)
 * [tools.responsive](https://github.com/inuitcss/tools.responsive)
@@ -18,7 +18,7 @@ The px-spacing-responsive-design module depends on one other Px module and two o
 
 ## Upstream dependencies
 
-The Spacing Responsive module is also an upstream dependency in this meta kit:
+The `px-spacing-responsive-design` module is also an upstream dependency in this meta kit:
 
 * [px-starter-kit-design](https://github.com/PredixDev/px-starter-kit-design)
 
@@ -242,4 +242,4 @@ These classes are available if the following variable flags are set to `true`:
 * `.u-*-ph0`: remove padding right and left
 * `.u-*-pv0`: remove padding top and bottom
 
-View the full API [here](http://predixdev.github.io/px-spacing-responsive-design/sassdoc/)
+View the full API [here](http://predixdev.github.io/px-spacing-responsive-design/sassdoc/).
