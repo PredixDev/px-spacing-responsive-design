@@ -1,6 +1,6 @@
 {
   "name": "px-spacing-responsive-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Responsively controlled spacing helper classes for Predix Experience",
   "private": false,
   "scripts": {
